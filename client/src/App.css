@@ -1,0 +1,157 @@
+.App {
+  text-align: center;
+  min-height: 100%;
+  position: relative;
+}
+
+.App-logo {
+  pointer-events: none;
+  max-width: 3rem;
+  margin-top: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin  20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-bottom: 1rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-content {
+  padding: 1rem;
+  padding-bottom: 5rem;
+  min-height: 40vh;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-family: 'Bellefair', serif;
+}
+
+form legend {
+  font-size: 3rem;
+}
+
+form label {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-top: 1rem;
+  width: 80%;
+}
+
+form input {
+  background: rgba(198,200,70, 0.2);
+  border: none;
+  border-bottom: 0.2rem solid green;
+  line-height: 2rem;
+  width: 80%;
+}
+
+form button {
+  margin-top: 1rem;
+  font-family: 'Bellefair', serif;
+  font-size: 1.5rem;
+  outline: none;
+  border: 0.2rem solid green;
+  border-radius: 0.5rem;
+  background: rgba(198,200,70, 0.2);
+  padding: 0.3rem;
+  transition: all 0.2 ease-in-out;
+}
+
+form button:hover {
+  background: rgba(198,200,70, 0.8);
+  transform: scale(1.1);
+}
+
+form button:active {
+  transform: translateY(0.5rem);
+}
+
+form input[placeholder] {
+  padding-left: 0.5rem;
+}
+
+/* Register Page Styles */
+.welcome {
+  margin: 4rem auto;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  width: 40%;
+}
+
+/* Users Page Styles */
+.users-box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.user-box {
+  width: 24%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  padding: 2rem 1rem 1rem 1rem;
+  margin: 1rem;
+}
+
+.user-box h2 {
+  font-size: 2rem;
+  letter-spacing: 0.15rem;
+}
+
+.img-container {
+  width: 85%;
+  margin: 0.5rem auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* Footer styles */
+footer {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 2rem;
+  color: white;
+  position: absolute;
+  height: 6rem;
+  bottom: -40vh;
+  width: 100%;
+}

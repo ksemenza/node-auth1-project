@@ -35,7 +35,7 @@ router.post('/login', (req, res) => {
     Users.findUserByUsername(username)
         .then(user => {
             if (user && bcrypt.compareSync(password, user.password)) {
-                //For 2nd day: create a new session for the user
+                //create a new session for the user
                 // and send cookie that contains the user id
                 req.session.user = user;
                 //console.log(req.session.user);

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-size: cover;
+  background-repeat: none;
+  height: 100%;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Bellefair', serif;
+}
+
+a, .logout {
+  color: green;
+  text-decoration: none;
+}
+
+header a, .logout {
+  margin: 1rem;
+  padding: 1rem;
+  font-family: 'Bellefair', serif;
+}
+
+.logout {
+  background: none;
+  border: none;
+  font-size: 1.75rem;
+}

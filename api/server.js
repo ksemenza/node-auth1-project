@@ -9,7 +9,7 @@ const dbConnection = require('../data/db-config.js')
 
 const sessionConfig = {
     name: "donkey",
-    secret: "Shrek meets Winnie the Pooh meets Wind in the Willows",
+    secret: "He haw shrek said to the whale",
     cookie: {
         maxAge: 1000 * 60,
         secure: false,
